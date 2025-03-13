@@ -1,31 +1,31 @@
 import { news } from "../news.js"
 
 document.querySelector('.home-sticker').addEventListener('click',()=>{
-  window.location.href = `../HTML/main.html`;
+  window.location.href = `../main.html`;
 })
 
 document.querySelector('.about-us-sticker').addEventListener('click',()=>{
-  window.location.href='../HTML/about-us.html'
+  window.location.href='../about-us.html'
 })
 
 document.querySelector('.our-team-sticker').addEventListener('click',()=>{
-  window.location.href='../HTML/our-team.html'
+  window.location.href='../our-team.html'
 })
 
 document.querySelector('.dropdown-items').addEventListener('click',()=>{
-  window.location.href='../HTML/our-team.html'
+  window.location.href='../our-team.html'
 })
 
 document.querySelector('.news-sticker').addEventListener('click',()=>{
-  window.location.href='../HTMl/news.html'
+  window.location.href='../news.html'
 })
 
 document.querySelector('.practice-areas-sticker').addEventListener('click',()=>{
-  window.location.href='../HTMl/Practice.html'
+  window.location.href='../Practice.html'
 })
 
 document.querySelector('.dropdown').addEventListener('click',()=>{
-  window.location.href='../HTML/Practice.html'
+  window.location.href='../Practice.html'
 })
 
 document.querySelector('.news-1-div').innerHTML=`
