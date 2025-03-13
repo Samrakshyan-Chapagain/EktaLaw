@@ -1,4 +1,9 @@
-
+@media screen and (max-width: 768px) {
+  /* Adjust styles for mobile */
+  body {
+      font-size: 14px;
+  }
+}
 .login-head-text{
   padding: 30px 0px 0px 100px;
   font-weight: 700;
