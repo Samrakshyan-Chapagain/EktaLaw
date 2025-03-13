@@ -39,7 +39,7 @@ news.forEach((newsitem)=>{
           ${newsitem.topic}
           <br>
           <br>
-          <a class="news-href" href="/HTML/News/news${newsitem.id}.html">Read more...</a>
+          <a class="news-href" href="../HTML/News/news${newsitem.id}.html">Read more...</a>
         </div>
       </div>`
 })
