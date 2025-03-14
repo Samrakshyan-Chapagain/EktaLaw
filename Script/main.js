@@ -46,5 +46,7 @@ news.forEach((newsitem)=>{
 
 document.querySelector('.js-news-div').innerHTML=addinghtml
 
-
+document.querySelector('.consultation-href').addEventListener('click',()=>{
+  window.location.href='contact-us.html'
+})
 
